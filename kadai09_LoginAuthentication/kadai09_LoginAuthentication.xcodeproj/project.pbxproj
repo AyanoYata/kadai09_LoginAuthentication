@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FC63F91515760ACB1D58436 /* Pods_kadai09_LoginAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91454497B6B2F89E0C7B1B6C /* Pods_kadai09_LoginAuthentication.framework */; };
+		CE4DADDF24AD49BB00CF2D4B /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4DADDD24AD49BB00CF2D4B /* TopViewController.swift */; };
+		CE4DADE024AD49BB00CF2D4B /* TopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE4DADDE24AD49BB00CF2D4B /* TopViewController.xib */; };
+		CE504A1324AB789900DAC0AF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE504A1124AB789900DAC0AF /* LoginViewController.swift */; };
+		CE504A1424AB789900DAC0AF /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE504A1224AB789900DAC0AF /* LoginViewController.xib */; };
+		CEFB256A24AB0BEC00E98D05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB256924AB0BEC00E98D05 /* AppDelegate.swift */; };
+		CEFB256C24AB0BEC00E98D05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB256B24AB0BEC00E98D05 /* SceneDelegate.swift */; };
+		CEFB256E24AB0BEC00E98D05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB256D24AB0BEC00E98D05 /* ViewController.swift */; };
+		CEFB257124AB0BEC00E98D05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFB256F24AB0BEC00E98D05 /* Main.storyboard */; };
+		CEFB257324AB0BED00E98D05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFB257224AB0BED00E98D05 /* Assets.xcassets */; };
+		CEFB257624AB0BED00E98D05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFB257424AB0BED00E98D05 /* LaunchScreen.storyboard */; };
+		CEFB257E24AB0E7500E98D05 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEFB257D24AB0E7400E98D05 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		81C9D694C91CE3C70A0DA691 /* Pods-kadai09_LoginAuthentication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kadai09_LoginAuthentication.release.xcconfig"; path = "Target Support Files/Pods-kadai09_LoginAuthentication/Pods-kadai09_LoginAuthentication.release.xcconfig"; sourceTree = "<group>"; };
+		91454497B6B2F89E0C7B1B6C /* Pods_kadai09_LoginAuthentication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kadai09_LoginAuthentication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9152850AFB2290B8ED750F2D /* Pods-kadai09_LoginAuthentication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kadai09_LoginAuthentication.debug.xcconfig"; path = "Target Support Files/Pods-kadai09_LoginAuthentication/Pods-kadai09_LoginAuthentication.debug.xcconfig"; sourceTree = "<group>"; };
+		CE4DADDD24AD49BB00CF2D4B /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = SOURCE_ROOT; };
+		CE4DADDE24AD49BB00CF2D4B /* TopViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopViewController.xib; sourceTree = SOURCE_ROOT; };
+		CE504A1124AB789900DAC0AF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CE504A1224AB789900DAC0AF /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		CEFB256624AB0BEC00E98D05 /* kadai09_LoginAuthentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kadai09_LoginAuthentication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFB256924AB0BEC00E98D05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEFB256B24AB0BEC00E98D05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEFB256D24AB0BEC00E98D05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEFB257024AB0BEC00E98D05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEFB257224AB0BED00E98D05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEFB257524AB0BED00E98D05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEFB257724AB0BED00E98D05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFB257D24AB0E7400E98D05 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEFB256324AB0BEC00E98D05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC63F91515760ACB1D58436 /* Pods_kadai09_LoginAuthentication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE4DADDC24AD497500CF2D4B /* TopViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE4DADDD24AD49BB00CF2D4B /* TopViewController.swift */,
+				CE4DADDE24AD49BB00CF2D4B /* TopViewController.xib */,
+			);
+			path = TopViewController;
+			sourceTree = "<group>";
+		};
+		CE504A0424AB608500DAC0AF /* TaskListView */ = {
+			isa = PBXGroup;
+			children = (
+				CEFB256D24AB0BEC00E98D05 /* ViewController.swift */,
+				CEFB256F24AB0BEC00E98D05 /* Main.storyboard */,
+			);
+			path = TaskListView;
+			sourceTree = "<group>";
+		};
+		CE504A1024AB787100DAC0AF /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE504A1124AB789900DAC0AF /* LoginViewController.swift */,
+				CE504A1224AB789900DAC0AF /* LoginViewController.xib */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		CEFB255D24AB0BEC00E98D05 = {
+			isa = PBXGroup;
+			children = (
+				CE4DADDC24AD497500CF2D4B /* TopViewController */,
+				CE504A1024AB787100DAC0AF /* LoginViewController */,
+				CE504A0424AB608500DAC0AF /* TaskListView */,
+				CEFB256824AB0BEC00E98D05 /* kadai09_LoginAuthentication */,
+				CEFB256724AB0BEC00E98D05 /* Products */,
+				E24E50333377C131D83B6876 /* Pods */,
+				CF87D11896F6B935A101C50E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFB256724AB0BEC00E98D05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFB256624AB0BEC00E98D05 /* kadai09_LoginAuthentication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFB256824AB0BEC00E98D05 /* kadai09_LoginAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				CEFB256924AB0BEC00E98D05 /* AppDelegate.swift */,
+				CEFB256B24AB0BEC00E98D05 /* SceneDelegate.swift */,
+				CEFB257224AB0BED00E98D05 /* Assets.xcassets */,
+				CEFB257424AB0BED00E98D05 /* LaunchScreen.storyboard */,
+				CEFB257724AB0BED00E98D05 /* Info.plist */,
+				CEFB257D24AB0E7400E98D05 /* GoogleService-Info.plist */,
+			);
+			path = kadai09_LoginAuthentication;
+			sourceTree = "<group>";
+		};
+		CF87D11896F6B935A101C50E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91454497B6B2F89E0C7B1B6C /* Pods_kadai09_LoginAuthentication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E24E50333377C131D83B6876 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9152850AFB2290B8ED750F2D /* Pods-kadai09_LoginAuthentication.debug.xcconfig */,
+				81C9D694C91CE3C70A0DA691 /* Pods-kadai09_LoginAuthentication.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEFB256524AB0BEC00E98D05 /* kadai09_LoginAuthentication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFB257A24AB0BED00E98D05 /* Build configuration list for PBXNativeTarget "kadai09_LoginAuthentication" */;
+			buildPhases = (
+				49A1A94E0CD7C1A5CEA7910C /* [CP] Check Pods Manifest.lock */,
+				CEFB256224AB0BEC00E98D05 /* Sources */,
+				CEFB256324AB0BEC00E98D05 /* Frameworks */,
+				CEFB256424AB0BEC00E98D05 /* Resources */,
+				F39E7CDC2A848B14958D4354 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kadai09_LoginAuthentication;
+			productName = kadai09_LoginAuthentication;
+			productReference = CEFB256624AB0BEC00E98D05 /* kadai09_LoginAuthentication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFB255E24AB0BEC00E98D05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Ayano Yata_ kadai09_LoginAuthentication";
+				TargetAttributes = {
+					CEFB256524AB0BEC00E98D05 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = CEFB256124AB0BEC00E98D05 /* Build configuration list for PBXProject "kadai09_LoginAuthentication" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEFB255D24AB0BEC00E98D05;
+			productRefGroup = CEFB256724AB0BEC00E98D05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEFB256524AB0BEC00E98D05 /* kadai09_LoginAuthentication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEFB256424AB0BEC00E98D05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE504A1424AB789900DAC0AF /* LoginViewController.xib in Resources */,
+				CEFB257624AB0BED00E98D05 /* LaunchScreen.storyboard in Resources */,
+				CE4DADE024AD49BB00CF2D4B /* TopViewController.xib in Resources */,
+				CEFB257E24AB0E7500E98D05 /* GoogleService-Info.plist in Resources */,
+				CEFB257324AB0BED00E98D05 /* Assets.xcassets in Resources */,
+				CEFB257124AB0BEC00E98D05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49A1A94E0CD7C1A5CEA7910C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kadai09_LoginAuthentication-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F39E7CDC2A848B14958D4354 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kadai09_LoginAuthentication/Pods-kadai09_LoginAuthentication-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kadai09_LoginAuthentication/Pods-kadai09_LoginAuthentication-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kadai09_LoginAuthentication/Pods-kadai09_LoginAuthentication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFB256224AB0BEC00E98D05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE504A1324AB789900DAC0AF /* LoginViewController.swift in Sources */,
+				CEFB256E24AB0BEC00E98D05 /* ViewController.swift in Sources */,
+				CEFB256A24AB0BEC00E98D05 /* AppDelegate.swift in Sources */,
+				CEFB256C24AB0BEC00E98D05 /* SceneDelegate.swift in Sources */,
+				CE4DADDF24AD49BB00CF2D4B /* TopViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEFB256F24AB0BEC00E98D05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFB257024AB0BEC00E98D05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEFB257424AB0BED00E98D05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFB257524AB0BED00E98D05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEFB257824AB0BED00E98D05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEFB257924AB0BED00E98D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEFB257B24AB0BED00E98D05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9152850AFB2290B8ED750F2D /* Pods-kadai09_LoginAuthentication.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 388DH3R55T;
+				INFOPLIST_FILE = kadai09_LoginAuthentication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AyanoYata-kadai09LoginAuthentication";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEFB257C24AB0BED00E98D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81C9D694C91CE3C70A0DA691 /* Pods-kadai09_LoginAuthentication.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 388DH3R55T;
+				INFOPLIST_FILE = kadai09_LoginAuthentication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AyanoYata-kadai09LoginAuthentication";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEFB256124AB0BEC00E98D05 /* Build configuration list for PBXProject "kadai09_LoginAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFB257824AB0BED00E98D05 /* Debug */,
+				CEFB257924AB0BED00E98D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFB257A24AB0BED00E98D05 /* Build configuration list for PBXNativeTarget "kadai09_LoginAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFB257B24AB0BED00E98D05 /* Debug */,
+				CEFB257C24AB0BED00E98D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEFB255E24AB0BEC00E98D05 /* Project object */;
+}
